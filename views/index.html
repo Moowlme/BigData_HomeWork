@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=8">
+	<!--以IE8模式渲染-->
+	<meta http-equiv="X-UA-Compatible" content="IE=7">
+	<!--以IE7模式渲染-->
+	<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
+	<title>新型冠状病毒肺炎（NCP）疫情实时系统</title>
+	<!-- 引入 echarts.js -->
+	<link rel="stylesheet" href="stylesheets/index.css">
+	<link rel="stylesheet" type="text/css" href="stylesheets/header.css" />
+	<script src="https://cdn.staticfile.org/echarts/4.3.0/echarts.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js" type="text/javascript" charset="utf-8"></script>	
+	<script src="map/js/china.js" type="text/javascript" charset="utf-8"></script>
+</head>
+
+<body>
+	<div id="header">
+		<div class="header_content clearfix">
+			<div class="title_panel">
+				<h1>新型冠状病毒肺炎疫情大数据实时平台</h1>
+			</div>
+			
+			<div class="menu_panel">
+				<ul>
+					<li>
+							<a href="/">首页</a>
+						</li>
+						<li>
+							<a href="/world">全球疫情数据图</a>
+						</li>
+						<li>
+							<a href="/city">查看各省市疫情数据信息</a>
+						</li>
+				</ul>
+				 
+			</div>
+		</div>
+	</div>
+	<div id="container-total">
+		<div class="Vtop-content clearfix">
+			<div class="confirm">
+				<h1 class="Vtop-summer Vtop-confirm set-confirm">0</h1>
+				<div class="Vtop-text">
+					确诊病例
+				</div>
+				<div class="Vtop-Adds">
+					昨日<span class="Vtop-confirm set-confirmadd">+0</span>
+				</div>
+			</div>
+			<div class="suspect">
+				<h1 class="Vtop-summer Vtop-suspect set-suspect">0</h1>
+				<div class="Vtop-text">
+					疑似病例
+				</div>
+				<div class="Vtop-Adds">
+					昨日<span class="Vtop-suspect set-suspectadd">+0</span>
+				</div>
+			</div>
+			<div class="heal">
+				<h1 class="Vtop-summer Vtop-heal set-heal">0</h1>
+				<div class="Vtop-text">
+					治愈病例
+				</div>
+				<div class="Vtop-Adds">
+					昨日<span class="Vtop-heal set-healadd">+0</span>
+				</div>
+			</div>
+			<div class="dead">
+				<h1 class="Vtop-summer Vtop-dead set-dead">0</h1>
+				<div class="Vtop-text">
+					死亡病例
+				</div>
+				<div class="Vtop-Adds">
+					昨日<span class="Vtop-dead set-deadadd">+0</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--顶部-->
+	<div id="container">
+		<div id="panel-map">
+			<div id="chartmap-panel">
+			</div>
+		</div>
+
+	    <div id="panel-stack">
+			<div id="stack-line-panel">
+
+			</div>
+		</div>
+
+		<div id="panel-stack">
+			<!--新增确诊与新增治愈-->
+			<div id="adds-stack-line-panel">
+
+			</div>
+		</div>
+	</div>
+
+	<!--底部-->
+	<div id="footer">
+		<div class="copyright">
+			<div class="">
+				实时数据来源于腾讯API
+			</div>
+			<div class="">
+				Made by e4glet
+				<br />
+				<a href="https://github.com/e4glet">https://github.com/e4glet</a>
+				<a href="https://gitee.com/e4glet">https://gitee.com/e4glet</a>
+			</div>
+		</div>
+
+	</div>
+	<script src="js/loaddata.js" type="text/javascript" charset="utf-8"></script>
+
+</body>
+
+</html>

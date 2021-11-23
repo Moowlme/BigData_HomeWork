@@ -1,0 +1,127 @@
+body {
+	margin: 0 auto;
+	font: 12px/1.5 'Microsoft Yahei', simsun, Arial, Helvetica, sans-serif;
+	color: #666;
+	text-align: center;
+}
+
+.fl{
+	float: left;
+}
+
+.red{
+	color: #FF0000;
+}
+
+.fr{
+	float: right;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	visibility: hidden;
+	height: 0;
+	clear: both;
+	overflow: hidden;
+}
+
+a {
+	text-decoration: none;
+}
+
+/*顶部*/
+#header {
+	position: relative;
+	background: #10aeb5;
+	width: 100%;
+}
+
+.header_content {
+	margin: 0 auto;
+	width: 80%;
+	height: 120px;
+	color: #fff;
+	line-height: 120px;
+}
+
+.header_content h1{
+	position: relative;
+}
+
+
+
+.title_panel{
+	width: 600px;
+	float: left;
+}
+
+.menu_panel{
+	width: 400px;
+	float: right;
+}
+
+.menu_panel a{
+	color: #FFFFFF;
+	line-height: 30px;
+}
+
+.menu_panel a:hover{
+	color: #FF0000;
+}
+
+.menu_panel ul li{
+	float: left;
+	margin-right: 15px;
+}
+
+/*顶部结束*/
+
+
+@media only screen and (max-width:1300px) {
+	#header {
+		width: 1300px;
+	}
+	
+}
+
+@media only screen and (min-width: 100px) and (max-width: 640px) {
+	#header {
+		width: 1300px;
+	}
+}
+
+#footer {
+	margin: 0 auto;
+	width: 1300px;
+	text-align: center;
+	font-size: 14px;
+	font-family: "黑体";
+	color: #666666;
+	line-height: 30px;
+	font-family: SimSun, Arial, "Arial Narrow", HELVETICA;
+}
+
+#footer .copyright {
+	margin: 50px 0;
+}
+
+#footer .copyright a {
+	color: #333;
+	margin-right: 20px;
+}
+
+#footer .copyright a:hover {
+	color: #0c82ff;
+}

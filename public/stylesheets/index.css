@@ -1,0 +1,52 @@
+#container {
+	position: relative;
+	width: 1300px;
+	margin: 0 auto;
+}
+
+#panel-map{
+	position: relative;
+	
+	height: 800px;
+	margin-bottom: 50px;
+}
+
+#panel-stack{
+	position: relative;
+	height: 800px;
+	margin-top: 50px;
+}
+
+#chartmap-panel {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	padding: 10px 10px 20px 10px;
+	
+	height: 800px;
+}
+
+#stack-line-panel {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	padding: 10px 10px 20px 10px;
+	
+	height: 800px;
+}
+
+#adds-stack-line-panel{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	padding: 10px 10px 20px 10px;	
+	height: 800px;
+}
+
+

@@ -1,0 +1,348 @@
+body {
+	margin: 0 auto;
+	font: 12px/1.5 'Microsoft Yahei', simsun, Arial, Helvetica, sans-serif;
+	color: #666;
+	text-align: center;
+}
+
+.fl{
+	float: left;
+}
+
+.red{
+	color: #FF0000;
+}
+
+.fr{
+	float: right;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	visibility: hidden;
+	height: 0;
+	clear: both;
+	overflow: hidden;
+}
+
+a {
+	text-decoration: none;
+}
+
+/*顶部*/
+#header {
+	position: relative;
+	background: #10aeb5;
+	width: 100%;
+}
+
+.header_content {
+	margin: 0 auto;
+	width: 80%;
+	height: 120px;
+	color: #fff;
+	line-height: 120px;
+}
+
+.header_content h1{
+	position: relative;
+}
+
+
+
+.title_panel{
+	width: 600px;
+	float: left;
+}
+
+.menu_panel{
+	width: 400px;
+	float: right;
+}
+
+.menu_panel a{
+	color: #FFFFFF;
+	line-height: 30px;
+}
+
+.menu_panel a:hover{
+	color: #FF0000;
+}
+
+.menu_panel ul li{
+	float: left;
+	margin-right: 15px;
+}
+
+/*顶部结束*/
+#container {
+	position: relative;
+	width: 1300px;
+	margin: 10px auto;
+}
+
+.content_left_panel {
+	width:198px;
+	border: 1px solid #10AEB5;
+	height: 750px;
+}
+
+.content_datalist_panel{
+	width: 180px;
+	margin: 5px auto;
+	padding: 20px 0;
+	background: #f5f6f7;
+}
+
+.confirm,
+.suspect,
+.heal,
+.dead {	
+	width: 180px;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+.Vtop-summer {
+	font-size: 1.25rem;
+	height: 1.25rem;
+	line-height: 1.25rem;
+	margin-bottom: .5rem;
+}
+
+.Vtop-text {
+	font-size: .9375rem;
+	height: .9375rem;
+	line-height: .9375rem;
+}
+
+.Vtop-Adds {
+	font-size: .75rem;
+	height: .75rem;
+	line-height: .75rem;
+	margin-top: .5rem;
+	color: #999;
+}
+
+.Vtop-confirm {
+	color: #e83132;
+	font-weight: 700;
+}
+
+.Vtop-suspect {
+	color: #ec9217;
+	font-weight: 700;
+}
+
+.Vtop-heal {
+	color: #10aeb5;
+	font-weight: 700;
+}
+
+.Vtop-dead {
+	color: #4d5054;
+	font-weight: 700;
+}
+
+
+/*左侧数据列表结束*/
+
+.content_map_panel{
+	position: relative;
+	width: 598px;
+	border-bottom: 1px solid #10AEB5;	
+	border-top: 1px solid #10AEB5;	
+	height: 500px;
+}
+
+.content_stack_panel{
+	position: relative;
+	width: 498px;
+	border: 1px solid #10AEB5;	
+	height: 500px;
+}
+
+#panel-stack{
+	position: relative;
+	height: 250px;
+}
+
+#stack-line-panel {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	padding: 10px 10px 20px 10px;	
+	height: 240px;
+}
+
+.adds-panel-stack{
+	border-top: 1px solid #10AEB5;	;
+}
+
+#adds-stack-line-panel{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	/*padding: 10px 10px 0px 10px;*/	
+	height: 250px;
+}
+
+#chartmap-panel{
+	position: absolute;
+	width: 580px;
+	height: 490px;
+}
+
+.content_pie_content{
+	position: relative;
+	width: 1097px;
+	height: 249px;
+	border-bottom: 1px solid #10AEB5;
+	border-right: 1px solid #10AEB5;
+}
+
+/*饼图样式*/
+.totalPie_content{
+	position: relative;
+	width: 400px;
+	height: 250px;
+	border-right: 1px solid #10AEB5;
+}
+
+#totalPieData{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	height: 250px;
+}
+
+/*柱状图样式*/
+.otherCountryBar_content{
+	position: relative;
+	width: 680px;
+	height: 250px;	
+}
+
+#countryBarData{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	height: 250px;
+}
+
+
+#footer {
+	margin: 0 auto;
+	width: 1300px;
+	text-align: center;
+	font-size: 14px;
+	font-family: "黑体";
+	color: #666666;
+	line-height: 30px;
+	font-family: SimSun, Arial, "Arial Narrow", HELVETICA;
+}
+
+#footer .copyright {
+	margin: 50px 0;
+}
+
+#footer .copyright a {
+	color: #333;
+	margin-right: 20px;
+}
+
+#footer .copyright a:hover {
+	color: #0c82ff;
+}
+
+.nanhai-img {
+	position: absolute;
+	right: 87px;
+    bottom: 65px;
+    display: block;
+    width: 60px;
+    height: 85px;
+    background: #ffffff;
+	background-size: contain;
+	
+}
+
+.nanhai-duanxian{
+	position: absolute;
+	right: 160px;
+    bottom: 55px;
+    display: block;
+    width: 30px;
+	height: 85px;
+	z-index: -1;
+}
+
+.diaoyudao{
+	position: absolute;
+	right: 30px;
+    bottom: 150px;
+    display: block;
+    width: 150px;
+	height: 125px;
+	z-index: -1;
+}
+
+@media only screen and (max-width:1300px) {
+	#header {
+		width: 1300px;
+	}
+	
+}
+
+@media only screen and (min-width: 100px) and (max-width: 640px) {
+	#header {
+		width: 1300px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

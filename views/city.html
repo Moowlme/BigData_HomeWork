@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>各省市疫情数据</title>
+		<link rel="stylesheet" type="text/css" href="stylesheets/city.css" />
+		<script src="https://cdn.staticfile.org/echarts/4.3.0/echarts.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="map/js/province/hubei.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+
+	<body>
+		<div id="header">
+			<div class="header_content clearfix">
+				<div class="title_panel">
+					<h1>新型冠状病毒肺炎疫情大数据实时平台</h1>
+				</div>
+
+				<div class="menu_panel">
+					<ul>
+						<li>
+							<a href="/">首页</a>
+						</li>
+						<li>
+							<a href="/world">全球疫情数据图</a>
+						</li>
+						<li>
+							<a href="/city">查看各省市疫情数据信息</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="container">
+			<div id="top_panel">
+				<div>
+					城市列表 ：
+					<select id="citylist" name="citylist">
+
+					</select>
+				</div>
+
+				选中城市 : <span id="selected">默认湖北省</span>
+				<div>
+					<span id="loading" style="color: #FF0000;"></span>
+				</div>
+			</div>
+			<div id="map_panel">
+				<div id="tianjin_map_panel">
+
+				</div>
+			</div>
+
+		</div>
+		<!--底部-->
+		<div id="footer">
+			<div class="copyright">
+				<div class="">
+					实时数据来源于腾讯API
+				</div>
+				<div class="">
+					Made by e4glet
+					<br />
+					<a href="https://github.com/e4glet">https://github.com/e4glet</a>
+					<a href="https://gitee.com/e4glet">https://gitee.com/e4glet</a>
+				</div>
+			</div>
+
+		</div>
+		<script src="js/load_city_data.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+
+</html>

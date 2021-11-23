@@ -1,0 +1,183 @@
+body,
+h1 {
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	visibility: hidden;
+	height: 0;
+	clear: both;
+	overflow: hidden;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#header {
+	position: relative;
+	background: #10aeb5;
+	width: 100%;
+}
+
+.header_content {
+	margin: 0 auto;
+	width: 80%;
+	height: 120px;
+	color: #fff;
+	line-height: 120px;
+}
+
+.header_content h1{
+	position: relative;
+}
+
+
+
+.title_panel{
+	width: 600px;
+	float: left;
+}
+
+.menu_panel{
+	width: 400px;
+	float: right;
+}
+
+.menu_panel a{
+	color: #FFFFFF;
+	line-height: 30px;
+}
+
+.menu_panel a:hover{
+	color: #FF0000;
+}
+
+.menu_panel ul li{
+	float: left;
+	margin-right: 15px;
+}
+
+#container-total {
+	margin: 20px auto;
+	width: 800px;
+	border-radius: .31rem;
+	
+	position: relative;
+}
+
+.Vtop-content {
+	margin: 10 auto;
+	position: relative;
+	background: #f5f6f7;
+}
+
+.confirm,
+.suspect,
+.heal,
+.dead {
+	float: left;
+	width: 184px;
+	margin-right: 10px;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+.Vtop-summer {
+	font-size: 1.25rem;
+	height: 1.25rem;
+	line-height: 1.25rem;
+	margin-bottom: .5rem;
+}
+
+.Vtop-text {
+	font-size: .9375rem;
+	height: .9375rem;
+	line-height: .9375rem;
+}
+
+.Vtop-Adds {
+	font-size: .75rem;
+	height: .75rem;
+	line-height: .75rem;
+	margin-top: .5rem;
+	color: #999;
+}
+
+.Vtop-confirm {
+	color: #e83132;
+	font-weight: 700;
+}
+
+.Vtop-suspect {
+	color: #ec9217;
+	font-weight: 700;
+}
+
+.Vtop-heal {
+	color: #10aeb5;
+	font-weight: 700;
+}
+
+.Vtop-dead {
+	color: #4d5054;
+	font-weight: 700;
+}
+
+#footer {
+	margin: 0 auto;
+	width: 1300px;
+	text-align: center;
+	font-size: 14px;
+	font-family: "黑体";
+	color: #666666;
+	line-height: 30px;
+	font-family: SimSun, Arial, "Arial Narrow", HELVETICA;
+}
+
+#footer .copyright {
+	margin: 50px 0;
+}
+
+#footer .copyright a {
+	color: #333;
+	margin-right: 20px;
+}
+
+#footer .copyright a:hover {
+	color: #0c82ff;
+}
+
+@media only screen and (max-width:1300px) {
+	#header {
+		width: 1300px;
+	}
+	#container-total {
+		margin: 20px auto;
+		width: 1300px;
+		border-radius: .31rem;
+		
+	}
+	.Vtop-content {
+		margin: 0 auto;
+		width: 800px;
+		position: relative;
+		background: #f5f6f7;
+	}
+}
+
+@media only screen and (min-width: 100px) and (max-width: 640px) {
+	#header {
+		width: 1300px;
+	}
+}
