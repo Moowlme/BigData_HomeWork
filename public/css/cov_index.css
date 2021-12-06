@@ -44,7 +44,7 @@ a {
 /*顶部*/
 #header {
 	position: relative;
-	background: #10aeb5;
+	background: #03273f;
 	width: 100%;
 }
 
@@ -58,6 +58,8 @@ a {
 
 .header_content h1{
 	position: relative;
+	font-size:30px;
+	margin-left
 }
 
 
@@ -95,7 +97,7 @@ a {
 
 .content_left_panel {
 	width:198px;
-	border: 1px solid #10AEB5;
+	border: 1px solid #03273F;
 	height: 750px;
 }
 
@@ -148,7 +150,7 @@ a {
 }
 
 .Vtop-heal {
-	color: #10aeb5;
+	color: #03273f;
 	font-weight: 700;
 }
 
@@ -162,16 +164,16 @@ a {
 
 .content_map_panel{
 	position: relative;
-	width: 598px;
-	border-bottom: 1px solid #10AEB5;	
-	border-top: 1px solid #10AEB5;	
-	height: 500px;
+	width: 700px;
+	border-bottom: 1px solid #03273F;	
+	border-top: 1px solid #03273F;	
+	height: 750px;
 }
 
 .content_stack_panel{
 	position: relative;
-	width: 498px;
-	border: 1px solid #10AEB5;	
+	width: 300px;
+	border: 1px solid #03273F;	
 	height: 500px;
 }
 
@@ -191,7 +193,7 @@ a {
 }
 
 .adds-panel-stack{
-	border-top: 1px solid #10AEB5;	;
+	border-top: 1px solid #03273F;	;
 }
 
 #adds-stack-line-panel{
@@ -206,24 +208,26 @@ a {
 
 #chartmap-panel{
 	position: absolute;
-	width: 580px;
-	height: 490px;
+	width: 700px;
+	height: 750px;
 }
 
 .content_pie_content{
 	position: relative;
-	width: 1097px;
-	height: 249px;
-	border-bottom: 1px solid #10AEB5;
-	border-right: 1px solid #10AEB5;
+	width: 1100px;
+	height: 250px;
+	/* border-bottom: 1px solid #03273F;
+	border-right: 1px solid #03273F; */
 }
 
 /*饼图样式*/
 .totalPie_content{
 	position: relative;
-	width: 400px;
+	width: 300px;
 	height: 250px;
-	border-right: 1px solid #10AEB5;
+	border-right: 1px solid #03273F;
+	border-left: 1px solid #03273F;
+	border-bottom: 1px solid #03273F;
 }
 
 #totalPieData{
@@ -240,6 +244,7 @@ a {
 	position: relative;
 	width: 680px;
 	height: 250px;	
+
 }
 
 #countryBarData{
